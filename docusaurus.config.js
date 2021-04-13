@@ -2,7 +2,7 @@
 module.exports = {
   title: 'One Platform For Your Digitalization',
   tagline: 'Let\'s grow through digital transformation with our platform-based solution!',
-  url: 'feedloop.io',
+  url: 'feedloop-docu.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

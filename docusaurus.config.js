@@ -50,11 +50,11 @@ module.exports = {
           title: 'Product',
           items: [
             {
-              label: 'Qore',
+              label: 'Qore Platform',
               to: 'docs/',
             },
             {
-              label: 'AIXP',
+              label: 'AIXP Platform',
               to: 'docs/doc2',
             },
           ],

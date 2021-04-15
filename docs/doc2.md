@@ -1,6 +1,11 @@
 ---
 id: doc2
-title: Document Number 2
+title: Features
 ---
 
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+Features
+Document caching
+Each read operation is cached by default, any similar read request will share the same data. With qore client you might not need an additional state management.
+
+TypeScript Support
+Qore cli can generate the schema of your project in TypeScript, meaning that you'll know what to insert and what to read from your qore client.

@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       hideOnScroll: true,
-      title: 'Documentation',
+      title: '',
       logo: {
         alt: 'Documentation Logo Feedloop',
         src: 'https://static.wixstatic.com/media/550988_087ff81b45b24164a119788fa88f401d~mv2.png/v1/fill/w_308,h_64,al_c,q_85/Logo%20(3).webp',
@@ -20,8 +20,14 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          activeBasePath: 'docs',
+          activeBasePath: 'qore',
           label: 'Docs',
+          position: 'left',
+        },
+        {
+          to:'docs/',
+          activeBasePath:'docs',
+          label: 'API',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -118,7 +124,7 @@ module.exports = {
         href: 'https://www.feedloop.io/',
       },
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Feedloop, Inc. Built with Love.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Feedloop, Inc. Built with Love. Version 1.0.0 Last updated 24 March 2021`,
     },
   },
   presets: [

@@ -1,7 +1,16 @@
 
-module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
-};
+
+module.exports ={
+  qore: [
+    {
+      type: 'category',
+      label: 'Introduction',
+      items: ['introduction'],
+    },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: ['getting/installation', 'getting/authenticate', 'getting/setup']
+    },
+  ]
+}
